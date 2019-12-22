@@ -117,7 +117,7 @@ We can also assign new attributes to them, as well as retrieve the values of tho
 """Behaviour of any object is equivalent to the functions that it can perform. In OOP it is possible to assign some functions to objects of a class. Taking the example forward, like a student can read/write, the car can accelerate and so on."""
 
 
-# In[32]:
+# In[1]:
 
 
 """
@@ -161,20 +161,20 @@ print(car1.door)
 
 print("-------------------------------------------- \n                    car2\n--------------------------------------------")
 car2=car("2002","white","corolla","455km/h","4")
-print("MODEL "+car1.model)
-print("COLOR "+car1.color)
-print("NAME "+car1.name)
-print("SPEED "+car1.speed)
-print("DOOR "+car1.door)
+print("MODEL "+car2.model)
+print("COLOR "+car2.color)
+print("NAME "+car2.name)
+print("SPEED "+car2.speed)
+print("DOOR "+car2.door)
 
-car1.updatecolor("UPDATE COLOR "+"PINK")
-print(car1.color)
+car2.updatecolor("UPDATE COLOR "+"PINK")
+print(car2.color)
 
-car1.updatespeed("UPDATE SPEED "+"555km/h")
-print(car1.speed)
+car2.updatespeed("UPDATE SPEED "+"555km/h")
+print(car2.speed)
 
-car1.updatedoor("UPDATE DOOR "+"5")
-print(car1.door)
+car2.updatedoor("UPDATE DOOR "+"5")
+print(car2.door)
 
 
 
@@ -182,56 +182,56 @@ print(car1.door)
 
 print("-------------------------------------------- \n                    car3\n--------------------------------------------")
 car3=car("2003","grey","mehran","255km/h","4")
-print("MODEL "+car1.model)
-print("COLOR "+car1.color)
-print("NAME "+car1.name)
-print("SPEED "+car1.speed)
-print("DOOR "+car1.door)
+print("MODEL "+car3.model)
+print("COLOR "+car3.color)
+print("NAME "+car3.name)
+print("SPEED "+car3.speed)
+print("DOOR "+car3.door)
 
-car1.updatecolor("UPDATE COLOR "+"YELLOW")
-print(car1.color)
+car3.updatecolor("UPDATE COLOR "+"YELLOW")
+print(car3.color)
 
-car1.updatespeed("UPDATE SPEED "+"355km/h")
-print(car1.speed)
+car3.updatespeed("UPDATE SPEED "+"355km/h")
+print(car3.speed)
 
-car1.updatedoor("UPDATE DOOR "+"5")
-print(car1.door)
+car3.updatedoor("UPDATE DOOR "+"5")
+print(car3.door)
 
 
 print("-------------------------------------------- \n                    car4\n--------------------------------------------")
 car4=car("2004","black","honda","855km/h","4")
-print("MODEL "+car1.model)
-print("COLOR "+car1.color)
-print("NAME "+car1.name)
-print("SPEED "+car1.speed)
-print("DOOR "+car1.door)
+print("MODEL "+car4.model)
+print("COLOR "+car4.color)
+print("NAME "+car4.name)
+print("SPEED "+car4.speed)
+print("DOOR "+car4.door)
 
-car1.updatecolor("UPDATE COLOR "+"PINK")
-print(car1.color)
+car4.updatecolor("UPDATE COLOR "+"PINK")
+print(car4.color)
 
-car1.updatespeed("UPDATE SPEED "+"955km/h")
-print(car1.speed)
+car4.updatespeed("UPDATE SPEED "+"955km/h")
+print(car4.speed)
 
-car1.updatedoor("UPDATE DOOR "+"5")
-print(car1.door)
+car4.updatedoor("UPDATE DOOR "+"5")
+print(car4.door)
 
 
 print("-------------------------------------------- \n                    car5\n--------------------------------------------")
 car5=car("2005","white","mercedes","1005km/h","4")
-print("MODEL "+car1.model)
-print("COLOR "+car1.color)
-print("NAME "+car1.name)
-print("SPEED "+car1.speed)
-print("DOOR "+car1.door)
+print("MODEL "+car5.model)
+print("COLOR "+car5.color)
+print("NAME "+car5.name)
+print("SPEED "+car5.speed)
+print("DOOR "+car5.door)
 
-car1.updatecolor("UPDATE COLOR "+"BLUE")
-print(car1.color)
+car5.updatecolor("UPDATE COLOR "+"BLUE")
+print(car5.color)
 
-car1.updatespeed("UPDATE SPEED "+"1100km/h")
-print(car1.speed)
+car5.updatespeed("UPDATE SPEED "+"1100km/h")
+print(car5.speed)
 
-car1.updatedoor("UPDATE DOOR "+"5")
-print(car1.door)
+car5.updatedoor("UPDATE DOOR "+"5")
+print(car5.door)
 
 
 # In[ ]:
